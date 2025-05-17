@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Welcome to Tekly Studio and Crypt0nest.io!
+        Welcome to Tekly Studio!
         
         This first issue will help you get familiar with our tools and process. Please complete the checklist below and comment here with any questions.
 
