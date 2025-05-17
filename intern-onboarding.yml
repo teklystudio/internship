@@ -1,0 +1,30 @@
+name: Intern Onboarding Task
+description: First onboarding issue for new interns
+title: "[Onboarding] Your First Task"
+labels: [onboarding, intern]
+assignees: 
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Welcome to Tekly Studio and Crypt0nest.io!
+        
+        This first issue will help you get familiar with our tools and process. Please complete the checklist below and comment here with any questions.
+
+  - type: checkboxes
+    id: setup
+    attributes:
+      label: Setup Tasks
+      options:
+        - label: Join the Discord server
+        - label: Accept Trello invite and view project board
+        - label: Clone the repo and confirm local setup (or cloud IDE)
+        - label: Review `/docs/intern-onboarding.md`
+        - label: Sign and upload NDA
+
+  - type: textarea
+    id: intro
+    attributes:
+      label: Tell us a bit about you!
+      description: What’s your background, what are you excited to learn, and what do you hope to work on this summer?
